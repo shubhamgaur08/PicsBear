@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    background-color: #eb6b40;
+}
+.navbar{
+    background-color: #59CE8F;
+    width: 100vw;
+}
+.navbar-brand{
+    font-weight: bolder;
+    font-size: larger;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5vh 0;
+
+
+
+}
+h1{
+    font-weight: bolder;
+}
+.form-control{
+    margin:3vh 0;
+    border-radius: 17px;
+    
+}
+.form-select{
+    margin:3vh 0;
+    border-radius: 17px;
+    
+}
+.btn{
+    margin-left: 35vw;
+    width: 150px;
+    font-weight: bolder;
+    font-size: large;
+   
+    border-radius: 100px;
+}
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 120px;
+    
+}

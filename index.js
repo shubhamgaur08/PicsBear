@@ -2,7 +2,7 @@ console.log("this is index.js")
 const path=require('path');//its provide utility to work with files
 const express=require('express');
 const dotenv=require('dotenv').config();
-const port=process.env.PORT||7000;
+const port=process.env.PORT||10000;
 
 const app=express();
 //to enable body parse

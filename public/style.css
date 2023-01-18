@@ -75,3 +75,25 @@ h1{
     margin: 3vh;
     font-weight: bolder;
 }
+.about{
+   
+    align-items: center;
+    font-weight: bolder;
+    justify-content: center;
+    position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-right: -50%;
+      transform: translate(-50%, -50%);
+  
+    border-radius: 110px;
+    width:80vw;
+    /* margin-left:15vw; */
+    
+    border-width:5px;
+border-style:solid;
+border-color:#59CE8F;
+}
+.about ul li{
+    margin:3vh;
+}

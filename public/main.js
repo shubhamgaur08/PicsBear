@@ -50,11 +50,3 @@ function removeSpinner(){
 }
 
 document.querySelector('#image-form').addEventListener('submit',onSubmit);
-function updateDownloadButton() {
-    var imageSrc = document.querySelector('.image').src;
-    var downloadBtn = document.querySelector('.download-btn');
-    if(imageSrc) {
-      downloadBtn.href = imageSrc;
-      downloadBtn.download = 'downloaded_image.png'; // The filename for downloaded image
-    }
-  }

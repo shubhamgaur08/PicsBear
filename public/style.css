@@ -3,10 +3,11 @@
     padding:0;
 }
 body{
-    background-color: #eb6b40;
+    background-color:#d0ecdd;
 }
 nav ul{
     display: flex;
+   
     align-items:center;
     list-style-type: none;
     height: 8vh;
@@ -86,7 +87,7 @@ h1{
       margin-right: -50%;
       transform: translate(-50%, -50%);
   
-    border-radius: 95px;
+    border-radius: 10px;
     width:80vw;
     /* margin-left:15vw; */
     
@@ -97,3 +98,46 @@ border-color:#59CE8F;
 .about ul li{
     margin:3vh;
 }
+
+
+
+
+.footer {
+    background-color:#59CE8F;
+    
+    padding: 10px;
+    text-align: center;
+  
+       position: fixed;
+       left: 0;
+       bottom: 0;
+       width: 100%;
+   
+  }
+  
+  .social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+  }
+  
+  .social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .social-icons li a {
+    color: #333;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  
+  .social-icons li a:hover {
+    color: #666;
+  }
+  
+  p {
+    color: #666;
+    font-size: 14px;
+    margin: 0;
+  }

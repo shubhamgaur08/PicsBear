@@ -66,16 +66,9 @@
           }
         </style>
 
-        <script>
-          function updateDownloadButton() {
-            var imageSrc = document.querySelector('#image').src;
-            var downloadBtn = document.querySelector('.download-btn');
-            if(imageSrc) {
-              downloadBtn.href = imageSrc;
-              downloadBtn.download = 'downloaded_image.png'; // The filename for downloaded image
-            }
-          }
-        </script>
+        
+          
+        
 
         <!-- Download Button -->
         <a class="download-btn" onclick="updateDownloadButton()" href="" download>Download Image</a>
